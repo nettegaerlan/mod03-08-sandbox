@@ -1,0 +1,128 @@
+* {
+	/*reset*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.menu {
+	height: 100px;
+	/*background-color: #B2D6FF;*/ /*blue*/
+	background-color: #b1b7ba;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Pacifico', cursive;
+}
+
+.sidebar {
+	height: 500px;
+	/*background-color: #F09A9D;*/ /*red*/
+	/*background-color: #9D9D9D;*/
+	width: 200px;
+	float: left;
+	background-color: rgba(192,192,192,0.6);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 5px 10px 8px #767676;
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Marck Script', cursive;
+}
+
+.content {
+	float: right;
+	height: 500px;
+	width: 650px;
+	/*background-color: #F5CF8E;*/ /*yellow*/
+	/*background-color: #9D9D9D;*/
+	background-color: #ccd7e1;
+	padding: 20px;
+	box-shadow: 5px 10px 8px #767676;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'Patrick Hand', cursive;
+}
+
+.footer {
+	clear: both;
+	/*height: 200px;*/
+	/*border: 5px solid red;*/
+	/*background-color: #D6E9FE;*/ /*light blue*/
+	/*background-color: #ccd7e1;*/
+	/*background-color: #B3C3D2;*/
+	background-color: rgba(100,112,118,0.4);
+
+}
+
+.page {
+	width: 900px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	/*background-color: #EAEDF0;*/
+}
+
+/*.clear {
+	clear: both;
+}*/
+
+.clear:after {
+	content: ""; /*invisible element*/
+	clear: both;
+	display: block;
+}
+
+.container {
+	/*background-color: #EAEDF0;*/
+	background-image: url("https://images.unsplash.com/photo-1532077414699-6841ebb3fac6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a18923835643f9e869bafd59ae1433bf&w=1000&q=80");
+
+}
+
+.column {
+	/*background-color: #B2D6FF;*/
+	background-color: #819cb5;
+	height: 160px;
+	width: 31%;
+	margin: 20px 1.16%;
+	float: left;
+	border-radius: 20px;
+	border: 2px solid black;
+}
+
+.article-image {
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+.avatar {
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin: 25px;
+	border-radius: 40px;
+	background-color: #D6E9FE;
+}
+
+.username {
+	margin-top: 30px;
+}
+
+.comment {
+	margin: 10px;
+	overflow: hidden;
+	font-family: 'Ranga', cursive;
+	font-size: 18px;
+}
+
+.avatar-icon {
+	float: left;
+	width: 60px;
+	height: 60px;
+	border-radius: 50px;
+}
